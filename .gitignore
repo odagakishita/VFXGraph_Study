@@ -1,0 +1,14 @@
+# Libraryフォルダ全体を無視する
+Library/
+
+# 特定のファイルを無視する
+Library/PackageCache/com.unity.burst@1.8.9/.Runtime/libburst-llvm-15.dylib
+
+# ビルドファイルを無視する
+*.exe
+*.dll
+*.log
+
+# OSごとの一時ファイルを無視する
+.DS_Store
+Thumbs.db
